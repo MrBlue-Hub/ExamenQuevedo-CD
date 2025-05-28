@@ -1,19 +1,49 @@
 *{
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.tabla{
-
+.tabla {
+    margin: 40px auto 0 auto; 
+    border-collapse: separate;
+    border-spacing: 15px 0;
 }
 
-.pro{
+.tabla th {
+    background-color: #2cb1aa;
+    padding: 20px;
+    font-size: 18px;
+}
 
+.tabla th.pro {
+    background-color: #2d2da1 !important; 
+    color: #fff !important;
+}
+
+.seccion{
+    width: 550px;
+    padding: 35px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 30px; 
+    background-color: #2cb1aa; 
+    border: 10px solid #2d2da1; 
 }
 
 .control{
-
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
 .boton{
-    
+    width: 150px;
+    height: 100px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 55px;
 }
